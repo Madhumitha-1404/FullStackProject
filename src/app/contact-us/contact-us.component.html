@@ -1,0 +1,16 @@
+<section id="contact">
+	<div class="sectionheader">	<h1>CONTACT</h1></div>
+	<article>
+	<p>Any Queries,please contact us.</p>
+		
+			<label for="checkcontact" class="contactbutton"><div class="mail"></div></label><input id="checkcontact" type="checkbox">
+	
+			<form action="" method="post" class="contactform">
+				<p class="input_wrapper"><input type="text" name="NAME" value=""  id ="contact_nom"[(ngModel)]="NAME"><label >NAME</label></p>
+				<p class="input_wrapper"><input type="text" name="EMAIL" value=""  id ="contact_email"[(ngModel)]="EMAIL"><label >EMAIL</label></p>
+				<p class="input_wrapper"><input type="text" name="SUBJECT" value=""  id ="contact_sujet"[(ngModel)]="SUBJECT"><label >SUBJECT</label></p>
+				<p class="textarea_wrapper"><textarea name="contact_message" id="contact_message"></textarea></p>
+				<p class="submit_wrapper"><input type="submit" value="Submit"(click)="contact()"> </p>			
+			</form>
+	</article>
+</section>

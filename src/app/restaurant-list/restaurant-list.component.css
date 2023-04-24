@@ -1,0 +1,68 @@
+tr:hover{
+    background-color:rgb(144, 246, 140);
+}
+table{
+  background-image:url("C:\Users\sridh\Desktop\FullStackProject\restaurant\src\assets\pngtree-restaurant-food-menu-background-picture-image_10464201.jpg");
+    background-size: 250px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    
+}
+th{
+    color:antiquewhite; 
+} 
+td{
+    color:rgb(17, 15, 13);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}  
+h2{
+   text-align: center;
+} 
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 26px;
+    color: black;
+    padding: 7px 19px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .info {
+    border-color: #2196F3;
+    color: rgb(90, 144, 198)
+  }
+  
+  .info:hover {
+    background: #2196F3;
+    color: white;
+  }
+
+
+  .danger {
+    border-color: #f44336;
+    color: red
+  }
+  
+  .danger:hover {
+    background: #f44336;
+    color: white;
+
+
+  }
+
+
+  
+
+
+  .success {
+    border-color: #04AA6D;
+    color: green;
+  }
+  
+  .success:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+

@@ -1,0 +1,24 @@
+body{
+background-image:url("C:\Users\sridh\Desktop\FullStackProject\restaurant\src\assets\1000_F_310837703_PPE6KxB7ICc7gDdkxJAluojJgcOabIXq3.jpg");
+
+
+font-size: 15px;
+
+}
+
+h1 {
+    color: rgba(252, 119, 3, 0.852);
+  font-weight:bold ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  table,tbody{
+    color: rgba(166, 166, 20, 0.91);
+    font-size: 23px;
+
+  }
+  thead{
+    color: rgba(167, 7, 148, 0.93);
+    font-size: 25px;
+
+  }
+ 

@@ -1,0 +1,30 @@
+
+<!--<div class="text-container">
+<h3> View Restaurant Details</h3>
+<div>
+    <div>
+        <label> <b> Restaurant Name: </b></label> {{restaurant.restaurantName}}<br>
+   
+        <label> <b> OwnerName: </b></label> {{restaurant.ownerName}}<br>
+    
+    <label> <b> Food type: </b></label> {{restaurant.foodType}}<br>
+    
+        <label> <b> Rating: </b></label> {{restaurant.rating}}<br>
+    
+        <label> <b> Location: </b></label> {{restaurant.location}}
+    </div>
+</div>
+</div>-->
+
+
+
+<!---Display all the details of the restaurant using  a particular id.-->
+<h3> View Restaurant Details</h3>
+<div>
+    <label> <b> Restaurant Name: </b></label> {{restaurant.restaurantName}}<br>
+    <label> <b> Owner Name: </b></label> {{restaurant.ownerName}}<br>
+<label> <b> Food type: </b></label> {{restaurant.foodType}}<br>
+    <label> <b> Rating: </b></label> {{restaurant.rating}}<br>
+    <label> <b> Location: </b></label> {{restaurant.location}}<br>
+    <button  class ="btn-warning" (click)="view()">BacktoList</button>
+</div>
