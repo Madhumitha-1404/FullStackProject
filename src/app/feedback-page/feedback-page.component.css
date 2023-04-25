@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  h3{
+    
+      margin: 0;
+      padding: 0;
+      line-height: 5;
+      font-weight:bold;
+      font-family: 'Times New Roman', Times, serif;
+    
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    line-height: 5px;
+    font-weight:bold;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .app {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .container {
+    display: flex;
+    margin:25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background:linear-gradient(#020024,#1a1ac3,#00d4ff) ;
+  }
+  
+  .item {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+  .radio {
+    display: none;
+  }
+  .radio ~ span {
+    font-size: 3rem;
+    filter: grayscale(100);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .radio:checked ~ span {
+    filter: grayscale(0);
+    font-size: 4rem;
+  }
+ .btn btn-info{
+  color:black;
+ }
+
+
+ 
+  
+  

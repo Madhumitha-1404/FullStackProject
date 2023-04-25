@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <html>
+       <!-- <head>
+       
+        </head>
+        <body>
+            <form action="#">
+              <table>
+                 <thead>
+                   <tr>
+                     <th colspan="2">Register Here!</th>
+                   </tr>
+                 </thead>
+                 <tbody>
+                   <tr>
+                     <td>First Name</td>
+                     <td><input type="text" placeholder="Enter First Name"/></td>
+                   </tr>
+                   <tr>
+                     <td>Last Name</td>
+                     <td><input type="text" placeholder="Enter Last Name"/></td>
+                   </tr>
+                     <tr> <td>E-mail</td>   
+                          <td><input type="email" name="mail" placeholder="Enter  E-mail" required/></td>
+                     </tr>
+           
+                     <tr>
+                       <td>Phone</td>
+                       <td><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required    
+                            placeholder="Enter Phone"></td>
+                     </tr>
+                     <tr>
+                       <td>Password</td>     
+                       <td><input type="password" name="password" required/></td> 
+                     </tr>
+                     <tr>  
+                        <td>Confirm Password</td>    
+                        <td><input type="password" name="password" required/></td>
+                     </tr>
+                    
+              </tbody>
+              <tfoot>
+                    <tr>
+                     <td colspan="2"><input type="Submit"value="Register"/>
+                                     <input type="Reset" value="Cancel"/>
+                     </td>
+                    </tr>
+              </tfoot>
+          </table>
+        </form>
+     </body>
+</html>-->
+
+<!-- Here we are creating registration page for new user--> 
+<head>
+ 
+  <link rel="stylesheet" href="register-page.component.css">
+
+  <title>Registration Form</title>
+</head>
+
+<body>
+
+  <div class="container">
+      <h2>Registration</h2>
+      <form action="">
+          <label>Username</label>
+          <input type="text"  name="username" id="username" [(ngModel)]="username" placeholder="username" required>
+          <label>Email</label>
+          <input type="email" name="email" id="email" [(ngModel)]="email" placeholder="email" required>
+          <label>Password</label>
+          <input type="password" name="password" id="password" [(ngModel)]="password" placeholder="password" required>
+          <label>Confirm Password</label>
+          <input type="password" name="confirmpassword" id="confirmpassword" [(ngModel)]="confirmpassword" placeholder=" confirm password" required>
+
+          <div class="btns">
+              <button type="submit" routerLink="loginpage" (click)="requiredValue()">Register   </button>
+              
+
+          </div>
+
+      </form>
+  </div>
+  
+  
+</body>
+
+</html>

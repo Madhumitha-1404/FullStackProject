@@ -1,0 +1,63 @@
+
+<!-- we are creating login page the enter the user credentails for the web page-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="loginpage.component.css">
+        <title>Login Page</title>
+    </head>
+    <body>
+        <section>
+           <style> #e{
+                color:red;
+            }</style>
+            <div class=" form-container">
+                <h2>Login</h2>
+                <form action='#'>
+                    <div class="control">
+                        <label><b>User Name</b></label>
+                        
+                        <input type="text" name="Uname" id="Username" placeholder="Username" 
+                        [(ngModel)] = "username"required> 
+                        <div class="alert alert-danger" role="alert" *ngIf="invalidLogin">Username is required!</div> 
+                    </div>
+                    <div class="control">
+                        <label><b>Password</b></label>
+                        
+                        <input type="Password"  name="Pass" id="Password" placeholder="Password"
+                        [(ngModel)] = "password"required><br>
+                        <div class="alert alert-danger" role="alert" *ngIf="invalidLogin">Password is required!</div>
+                    </div>
+                    <span>
+                        <input type="checkbox">Remember Me
+
+                    </span>
+                    <div class="row mb-4 px-3">
+                        <div class="font-weight-bold">Don't have an account? <a  href ="register-page"class="text-danger " >Register</a></div>
+                    </div>
+                    <p id="e">{{emessage}}</p>
+                    <div class="control">
+                        <input type="Submit"value="Login" (click)=checkLogin()>
+                      <!--  <button (click)=checkLogin() class="btn btn-success" >
+                            Login
+                          </button>
+                        <br><br>-->
+                    </div> 
+                </form>
+                
+                
+
+            </div>
+        </section>
+    </body>
+    
+</html>
+
+
+    
+  
+  
+
+
